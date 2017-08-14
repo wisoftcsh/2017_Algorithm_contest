@@ -1,14 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Menchester {
+public class Manchester {
   private List<Integer> filter;
   private Bit bit;
 
-  Menchester() {
+  Manchester() {
   }
 
-  Menchester(Bit bit) {
+  Manchester(Bit bit) {
     this.bit = bit;
     filter = new ArrayList<>();
   }

@@ -1,11 +1,11 @@
 public class Main {
   public static void main(String[] args) {
     Bit bit = new Bit();
-    bit.binaryConvert("ABC");
+    bit.binaryConvert("ABC DEFG 1234 !@");
 
-    Menchester menchester = new Menchester(bit);
-    menchester.encoding();
-    menchester.decoding();
-    menchester.getString();
+    Manchester manchester = new Manchester(bit);
+    manchester.encoding();
+    manchester.decoding();
+    manchester.getString();
   }
 }
