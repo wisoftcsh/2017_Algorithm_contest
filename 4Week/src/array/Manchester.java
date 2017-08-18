@@ -1,3 +1,5 @@
+package array;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -34,7 +36,7 @@ public class Manchester {
     System.out.println(filter);
   }
 
-  public void decoding() {
+  public void decoding() { // 비트는 무조건 8 비트여야하는데.. 지금은 7비트, 상태 테이블??
     for (int i = 0; i < filter.size(); i++) {
       if (filter.get(i) == 0 && filter.get(i + 1) == 1) {
         bit.get().add(0);
